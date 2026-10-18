@@ -1,14 +1,9 @@
 !#/usr/bin/env bash
 
-This is the Part 1 of the WeldonGH's Arch Linux autoinstall, btw.
+# This is the Part 1 of the WeldonGH's Arch Linux autoinstall, btw.
 
-Programs that will be pacstrap'd:
-base linux linux-firmware base-devel sof-firmware git vim fastfetch networkmanager efibootmgr
-
-User's name will be of your choice, as well as the password.
-Make sure to uncomment the %wheel line in visudo.
-
-Time zone will be Europe/Moscow.
+# Programs that will be pacstrap'd:
+# base linux linux-firmware base-devel sof-firmware git vim fastfetch networkmanager efibootmgr
 
 cfdisk /dev/sda
 mkfs.fat -F32 -n BOOT /dev/sda1

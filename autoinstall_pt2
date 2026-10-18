@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# This is the Part 2 of the WelDonGH's Arch autoinstall.
+
+# When editing locale.gen make sure to chose en_US.UTF-8.
+
+# Make sure to uncomment the %wheel line when editing visudo.
+# Feel free to use whatever name you want and password as well.
+
+# hostname will be archlinux
+
